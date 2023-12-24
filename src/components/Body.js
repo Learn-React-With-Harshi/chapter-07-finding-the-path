@@ -24,8 +24,8 @@ const Body = () => {
       const response = await fetch(GET_RESTAURANTS_LIST);
       const res_data = await response.json();
     
-      setAllRestaurants(res_data?.data?.cards[2]?.data?.data?.cards);
-      setFilteredRestaurants(res_data?.data?.cards[2]?.data?.data?.cards);
+      setAllRestaurants(res_data?.data?.cards[3]?.data?.data?.cards);
+      setFilteredRestaurants(res_data?.data?.cards[3]?.data?.data?.cards);
     } catch (error) {
       console.log(error);
     }
